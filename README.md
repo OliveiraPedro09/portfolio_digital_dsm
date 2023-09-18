@@ -18,3 +18,5 @@
 ```console 
 	git clone https://github.com/OliveiraPedro09/portfolio_digital_dsm
 ```
+
+(Validação professor FGMC - 1DSM - 2023-02)
