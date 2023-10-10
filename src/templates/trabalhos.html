@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}
+Trabalhos
+{% endblock %}
+
+{% block content %}
+<main>
+    <body>
+        <h1 id="texto">Trabalhos</h1>
+        <article id="texto">
+            <h2>API FATEC-SJC</h2>
+            <h2>Metodologia</h2>
+            <p>SCRUM - O que é o Scrum? O Scrum é um framework de gerenciamento que as equipes usam para se auto-organizar e trabalhar em direção a um objetivo em comum. A estrutura descreve um conjunto de reuniões, ferramentas e funções para uma entrega eficiente de projetos.</p>
+            <br>
+            <h2>Sobre o Projeto :</h2>
+            <p>Estou atualmente desenvolvendo com a minha equipe Code Nine um projeto onde devemos fazer um site informativo sobre nefrologia infantil, um assunto que é pouco abordado na sociedade brasileira.</p>
+            <p>Esse projeto foi desenvolvido com a finalidade de conscientizar, ampliar e facilitar a comunicação de pacientes e famílias que possuem Doença renal crônica(DRC).</p>
+            <img id="img" src="{{url_for('static', filename='CIANP.png')}}" alt="CIANP" width="800" height="250">
+            <h2>Oque é DRC ?</h2>
+            <p>É uma doença de curso pronlongado, que pode parecer benigno, porém, na maioria das vezes se torna grave, além de ser uma doença silenciosa.</p>
+            <br>
+            <h2>Fatores de Risco:</h2>
+            <p>Um dos principais fatores de risco para doença renal crônica é a diabetes e a hipertensão, ambas cuidadas na Atenção Básica, principal porta de entrada para o Sistema Único de Saúde (SUS), em uma das 42.885 Unidades Básicas de Saúde distribuídas em todo o Brasil.</p>
+            <h1>Tecnologias Utilizadas : </h1>
+            <img src="{{url_for('static', filename='html.png')}}">
+            <img src="{{url_for('static', filename='css.png')}}">
+            <img src="{{url_for('static', filename='flask.png')}}">
+            <img src="{{url_for('static', filename='python.png')}}">
+            <h2>Para saber mais sobre o projeto, clique no ícone abaixo :</h2>
+            <a href="https://github.com/Code-Nine-FTC/Grupo-Code-Nine"><img id="insta" src="{{url_for('static', filename='codenine.png')}}">
+        </article>
+    </body>
+</main>
+
+{% endblock %}

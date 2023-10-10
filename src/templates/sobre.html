@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+Sobre Mim
+{% endblock %}
+
+{% block content %}
+<main>
+    <div id="trabalhos">
+    <img id="pedro" src="{{url_for('static', filename='koln.jpg')}}" alt="Pedro" width="700" height="730">
+        <section>  
+            <h1>Um pouco sobre mim</h1>
+            <p>Sou de São José dos Campos-SP, estudante de desenvolvimento de software multiplataforma na FATEC-SJC. Gosto de estudar línguas estrangeiras, fluente em inglês e intermediario em alemão.</p>
+            <p>Sou muito interessado nas diversas culturas do planeta, adoro saber como as pessoas pensam fora do nosso país</p>
+            <p>Eu adoro viajar, já viajei para várias cidades e países diferentes, como Grécia, Inglaterra, França, Holanda e um lugar que eu guardo com muito carinho, Alemanha, que foi um lugar onde eu tive uma das experiências mais incríveis da minha vida, de passar 1 ano nesse país maravilhoso fazendo intercâmbio na região de Colônia.</p>
+            <br>
+            <h2>Hobbies</h2>
+            <p>>Jogar Futebol</p>
+            <p>>Cozinhar</p>
+            <p>>Jogar vídeo games</p>
+            <p>>Assistir séries ou filme de ficção científica</p>
+            <br>
+            <h2>Escolaridade</h2>
+            <h3>Ensino Médio :</h3></p>
+            <p>Colégio Adventista São José dos Campos 2010-2021</p>
+            <p>Erzbischöfliches Sankt-Joseph-Gymnasium Rheinbach 2019-2020</p>
+            <h3>Nível Superior:</h3>
+            <p>FATEC São José dos Campos - Prof. Jessen Vidal 2023-Cursando</p>
+        </section>
+    </div>
+</main>
+{% endblock %}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div class="esquerda">
+                <div id="logo"> 
+                    <img src="{{url_for('static', filename='1Logo.png')}}" width="100" height="100">
+                </div>
+            </div>
+                <a href="/">Home</a>
+                <a href="/trabalhos">Trabalhos</a>
+                <a href="/sobre">Sobre Mim</a>
+        </div>
+    </header>
+    {% block content %}
+    {% endblock %}
+    <footer>
+        
+        <a href="https://www.instagram.com/pedromartins0789/"><img id="insta" src="{{url_for('static', filename='instagram.png')}}">
+        <a href="https://github.com/OliveiraPedro09"><img id="insta" src="{{url_for('static', filename='1github.png')}}">   
+        <a href="https://www.linkedin.com/in/pedrooliv9/"><img id="insta" src="{{url_for('static', filename='linkedin.png')}}"> 
+    </footer>
+</body>
+</html>
