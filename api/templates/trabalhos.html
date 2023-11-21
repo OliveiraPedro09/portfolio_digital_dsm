@@ -21,8 +21,10 @@ Trabalhos
             <h2>{{ work.titulo3 }}</h2>
             <p>{{ work.conteudo3 }}</p>
             {% endfor %} 
-            <img id="drc" src="{{ url_for('static', filename='CIANP.png' )}}" alt="CIANP" >
         </article>
+        <div>
+            <img id="drc" src="{{ url_for('static', filename='cianp.png')}}">
+        </div>
             <div id="texto">
                 <h1>Tecnologias Utilizadas : </h1>
                 <img id="icone" src="{{url_for('static', filename='html.png')}}">
