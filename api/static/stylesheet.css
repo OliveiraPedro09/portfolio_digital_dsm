@@ -89,7 +89,10 @@ section h3 {
   margin-left: 2%;
 }
 
-[class*="col-"] {width: 100%; float: left; box-sizing: border-box;}
+#icone{
+  width: 100px;
+  height: 100px;
+}
 
 
 /* Para smartphones: */
