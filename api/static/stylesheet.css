@@ -1,0 +1,170 @@
+nav{
+    background: linear-gradient(55deg, rgb(0, 0, 0),rgb(71, 71, 71));
+}
+
+footer{
+    background: linear-gradient(55deg, rgb(0, 0, 0),rgb(71, 71, 71));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+#navbar{
+    background-color: rgb(255,249,236);
+    width: px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    padding-left: auto;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+body{
+    background-color: rgb(139, 171, 185);
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-grow: 1;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Young Serif', serif;
+    flex-wrap: wrap;
+}
+#logo{
+    display: flex;
+    padding-left: auto;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.esquerda{
+    margin-right: auto;
+}
+#insta{
+    width: 40px;
+    height: 40px;
+}
+
+#texto{
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'Young Serif', serif;
+
+}
+
+section h2{
+    line-height: 50px;
+    margin: 10px 0;
+    margin-left: 2%;
+
+}
+
+section p{
+    line-height: 28px;
+    margin: 10px 0;
+    white-space: pre-line;
+    font-family: 'Young Serif', serif;
+    margin-left: 2%;
+}
+section h3 {
+  margin-left: 2%;
+}
+
+[class*="col-"] {width: 100%; float: left; box-sizing: border-box;}
+
+
+/* Para smartphones: */
+@media only screen and (max-width: 480px) {
+  #img{
+    max-width: 350px;
+    max-height: 250px;
+    border-radius: 50%;
+  }
+  #pedro{
+    max-width: 350px;
+    max-height: 500px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 15px;
+    
+  }
+  #drc{
+    max-width: 400px;
+    max-height: 250px;
+  }
+  #icone{
+    width: 150px;
+    height: 150px;
+  }
+  }
+
+
+/* Para tablets: */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  #img{
+    max-height: 250px;
+    border-radius: 50%;
+  }
+  #drc{
+    max-width: 400px;
+    max-height: 250px;
+  }
+  #pedro{
+    max-width: 300px;
+    max-height: 500px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 15px;
+    
+  }
+  #icone{
+    width: 200px;
+    height: 200px;
+  }
+  main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  }
+
+
+/* Para desktop: */
+@media only screen and (min-width: 768px) {
+  #trabalhos{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+  }
+  #pedro{
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 15px;
+  }
+  #img{
+    width: 450px;
+    height: 350px;
+    border-radius: 50%;
+  }
+
+}
