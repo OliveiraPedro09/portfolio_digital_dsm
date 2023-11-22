@@ -51,11 +51,11 @@ deactivate
 
 1. Baixe o Node.Js em seu computador.
 
-2. Entre no repositório de seu projeto e abra o terminal na pasta raíz do projeto e use:
+2. Entre no repositório de seu projeto e abra o terminal e use:
 ```
 npm i -g vercel
 ```
-3. Use o comando
+3. Use o comando no terminal da pasta raíz:
 ```
 vercel
 ```
