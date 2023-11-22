@@ -49,7 +49,19 @@ deactivate
 
 ## Vercel
 
-Para visualização do site entre em:
+1. Baixe o Node.Js em seu computador.
+
+2. Entre no repositório de seu projeto e abra o terminal na pasta raíz do projeto e use:
+```
+npm i -g vercel
+```
+3. Use o comando
+```
+vercel
+```
+4. Execute com as configurações desejadas e o seu projeto irá aparecer no site do vercel
+
+Para visualização da minha página entre em:
 ```
 https://pedrodsm202311.vercel.app
 ```
