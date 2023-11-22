@@ -34,7 +34,7 @@ source venv\bin\activate
 ```
 7. Instale o Flask e componentes necessários :
 ```
-pip install -r req.txt
+pip install -r requirements.txt
 ```
 8. Execute o Flask 
 ```
@@ -47,4 +47,10 @@ flask run
 deactivate
 ```
 
+## Vercel
+
+Para visualização do site entre em:
+```
+https://pedrodsm202311.vercel.app
+```
 (Validação professor FGMC - 1DSM - 2023-02)

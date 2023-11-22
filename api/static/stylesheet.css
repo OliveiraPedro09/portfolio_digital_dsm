@@ -118,8 +118,7 @@ section h3 {
     height: 150px;
   }
   #drc{
-    width: 400px;
-    height: 200px;
+    width: 85%;
   }
   }
 
@@ -131,8 +130,7 @@ section h3 {
     border-radius: 50%;
   }
   #drc{
-    width: 430px;
-    height: 200px;
+    width: 70%;
   }
   #pedro{
     max-width: 50%;
@@ -171,13 +169,12 @@ section h3 {
     border-radius: 15%;
   }
   #drc{
-    width: 70%;
-    height: 300px;
+    width: 50%;
   }
 }
 @media (max-width: 576px) {
   #pedro{
-      width: 200px;
+      width: 80%;
       content: url("../static/pedromarttins.jpg");
   }
 }
