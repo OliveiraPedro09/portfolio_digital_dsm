@@ -16,23 +16,30 @@ Trabalhos
             <h2>{{ work.titulo1 }}</h2>
             <p>{{ work.conteudo1 }}</p>
             <p>{{ work.paragrafo1 }}</p>
+            {% endfor %} 
+        </article>
+        <div id="texto">
+            <img id="drc" src="{{ url_for('static', filename='cianp.jpg')}}">
+            <h3>Tecnologias Utilizadas : </h3>
+            <img id="icone" src="{{url_for('static', filename='html.png')}}">
+            <img id="icone" src="{{url_for('static', filename='css.png')}}">
+            <img id="icone" src="{{url_for('static', filename='flask.png')}}">
+            <img id="icone" src="{{url_for('static', filename='python.png')}}">
+            <p>Para saber mais sobre o projeto, clique no ícone abaixo :</p>
+            <a href="https://github.com/Code-Nine-FTC/Grupo-Code-Nine"><img id="insta" src="{{url_for('static', filename='codenine.png')}}">
+        </div>
+        <article id="texto">
+            {% for work in trabalho: %}
             <h2>{{ work.titulo2 }}</h2>
             <p>{{ work.conteudo2 }}</p>
             <h2>{{ work.titulo3 }}</h2>
             <p>{{ work.conteudo3 }}</p>
-            {% endfor %} 
+            {% endfor %}
         </article>
-
-            <div id="texto">
-                <img id="drc" src="{{ url_for('static', filename='cianp.jpg')}}">
-                <h1>Tecnologias Utilizadas : </h1>
-                <img id="icone" src="{{url_for('static', filename='html.png')}}">
-                <img id="icone" src="{{url_for('static', filename='css.png')}}">
-                <img id="icone" src="{{url_for('static', filename='flask.png')}}">
-                <img id="icone" src="{{url_for('static', filename='python.png')}}">
-                <h2>Para saber mais sobre o projeto, clique no ícone abaixo :</h2>
-                <a href="https://github.com/Code-Nine-FTC/Grupo-Code-Nine"><img id="insta" src="{{url_for('static', filename='codenine.png')}}">
-            </div>
+        <div id="texto">
+            <img id="drc" src="{{ url_for('static', filename='api2.jpg')}}">
+            <p>Para saber mais sobre o projeto, clique no ícone abaixo :</p>
+            <a href="https://github.com/Code-Nine-FTC/API-2024.1"><img id="insta" src="{{url_for('static', filename='codenine.png')}}">
     </body>
 </main>
 

@@ -12,6 +12,7 @@ footer{
     justify-content: center;
     height: 15vh;
 }
+
 #navbar{
     background-color: rgb(255,249,236);
     width: px;
@@ -28,7 +29,7 @@ footer{
 
 }
 body{
-    background-color: rgb(139, 171, 185);
+    background-color: rgb(239, 249, 255);
     padding: 0;
     margin: 0;
     font-weight: bold;
@@ -71,7 +72,6 @@ a{
     text-decoration: none;
     padding: 30px;
     font-family: 'Young Serif', serif;
-
 }
 
 section h2{
@@ -93,8 +93,8 @@ section h3 {
 }
 
 #icone{
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 
@@ -114,8 +114,8 @@ section h3 {
     
   }
   #icone{
-    width: 150px;
-    height: 150px;
+    width: 30px;
+    height: 30px;
   }
   #drc{
     width: 85%;
@@ -141,8 +141,8 @@ section h3 {
     
   }
   #icone{
-    width: 200px;
-    height: 200px;
+    width: 30px;
+    height: 305px;
   }
   main{
     display: flex;
